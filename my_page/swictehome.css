@@ -23,22 +23,62 @@ video{
 .logo{
     color: red;
     margin-right: 40px;
-    font-size: 24px;
+    font-size: 28px;
     font-weight: 900;
+    line-height: 36px;
 }
 .nav{
     display: flex;
     color: white;
-    line-height: 24px;
+    line-height: 36px;
 }
 .nav-item{
+    padding: 0 10px;
 
 }
 .menu{
     display: flex; 
     margin-left: auto;
     color: white;
+    line-height: 36px;
 }
 .menu-item{
+    padding: 0 10px;
+}
+.banner{
+    color: white;
+    padding: 45px 0;
+}
+.title{
+    font-size: 72px;
+}
+.badge{
+    font-size: 18px;
+    font-weight: 900;
+    padding: 15px 0;
+}
+.description{
+    width: 48;
+}
+.buttons{
+    display: flex;
+    padding: 20px 0;
 
+}
+.white-button{
+    color: black;
+    background-color: white;
+    padding: 10px 25px;
+    border-radius: 4px;
+    font-weight: 900;
+    font-size: 18px;
+}
+.gray-button{
+    color: white;
+    background-color: rgba(170,170,170,.4);
+    padding: 10px 25px;
+    border-radius: 4px;
+    font-weight: 900;
+    font-size: 18px;
+    margin-left: 15px;
 }
